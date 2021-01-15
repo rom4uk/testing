@@ -1,0 +1,15 @@
+main {
+  flex-grow: 1;
+  overflow: hidden;
+  width: calc(100% / 12 * 8);
+
+  .container {
+    position: relative;
+    height: 100%;
+    padding-right: 0;
+  }
+
+  .row {
+    justify-content: space-between;
+  }
+}
