@@ -1,9 +1,5 @@
 header {
   color: rgb(222, 151, 54);
-
-  .container {
-  }
-
   .row {
     justify-content: space-between;
     align-items: center;
@@ -18,8 +14,24 @@ header {
       width: 80px;
     }
 
-    .logo-text span {
-      font-size: 21px;
+    .logo-text {
+      h1 {
+        font-size: 36px;
+      }
+      span {
+        font-size: 21px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    .row {
+      flex-direction: column;
+    }
+    .logo {
+      margin-bottom: 16px;
     }
   }
 }
