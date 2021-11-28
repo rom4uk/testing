@@ -10,6 +10,13 @@ body {
 :active {
   outline: none;
 }
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
 ul {
   list-style: none;
 }

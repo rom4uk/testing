@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.scss';
 
-import logo from '../../logo.svg'
+import logo from '../../logo.png'
 
 const Header = (props) => {
 
@@ -13,9 +13,9 @@ const Header = (props) => {
             <img src={logo} alt="logo" />
             <div className="logo-text">
               <h1>
-                REQUESTRUM
+                <a href="https://github.com/rom4uk" target="_blank">rom4uk</a>
               </h1>
-              <span>web development company</span>
+              <span>web developer</span>
             </div>
           </div>
           <div>
